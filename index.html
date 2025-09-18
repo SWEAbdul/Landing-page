@@ -6,13 +6,14 @@
 -->
 <html>
   <head>
-    <title>Abdulaziz Abshir</title>
+    <title>Abdulaziz Abshir - Software Engineer & AI Developer</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -30,11 +31,13 @@
         <div class="inner">
           <h2>Menu</h2>
           <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#one">Education</a></li>
+            <li><a href="#two">Experience</a></li>
+            <li><a href="#three">Projects</a></li>
+            <li><a href="#four">Skills</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
@@ -43,9 +46,41 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <div class="logo"><span class="icon fa-gem"></span></div>
-          <h2>This is Abdulaziz Abshir</h2>
-          <p>Full Stack Web Developer | Software Developer</p>
+          <div class="hero-content">
+            <div class="hero-image">
+              <div class="profile-placeholder">
+                <span class="icon fa-user"></span>
+              </div>
+            </div>
+            <div class="hero-text">
+              <h1>Abdulaziz Abshir</h1>
+              <h2>Software Engineer & AI Developer</h2>
+              <p class="hero-description">
+                Computer Science student at University of Minnesota (GPA: 3.76) with proven experience 
+                in software engineering, AI development, and full-stack web development. Currently 
+                working as a Teaching Assistant and Software Engineering Intern at Chewy, building 
+                scalable solutions that drive real business impact.
+              </p>
+              <div class="hero-buttons">
+                <a href="#footer" class="button primary">Get In Touch</a>
+                <a href="#three" class="button secondary">View My Work</a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat">
+                  <span class="stat-number">$175K</span>
+                  <span class="stat-label">Traffic Uplift</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">150+</span>
+                  <span class="stat-label">Students Mentored</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number">3.76</span>
+                  <span class="stat-label">GPA</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -54,23 +89,64 @@
         <!-- One -->
         <section id="one" class="wrapper spotlight style1">
           <div class="inner">
-            <!-- <a href="#" class="image">Education</a> -->
             <div class="content">
-              <h2 class="major">Education</h2>
-              <h3 class="major">
-                University of Minnesota | Bachelor of Science: Computer Science
-              </h3>
-              <p>
-                I have completed coursework in Programming in C, Physics for
-                Science and Engineering I and II, Discrete Mathematics, Computer
-                Programming Concepts, Introduction to Algorithms, and Data
-                Structures. Additionally, I pursued a Certificate in Technical
-                Interview Prep and ICP from June 2024 to August 2024, focusing
-                on algorithms (sorting, searching, traversal), complex data
-                structures (binary trees, hash maps, heaps), and recursion. My
-                academic achievements include being named to the Dean's List in
-                Fall 2022 and Spring 2024.
-              </p>
+              <h2 class="major">
+                <span class="icon fa-graduation-cap"></span>
+                Education
+              </h2>
+              <div class="education-card">
+                <div class="education-header">
+                  <h3>University of Minnesota</h3>
+                  <span class="degree">Bachelor of Science: Computer Science</span>
+                  <span class="timeline">2022 - May 2026</span>
+                  <span class="gpa">Cumulative GPA: 3.76</span>
+                </div>
+                <div class="education-content">
+                  <div class="coursework">
+                    <h4>Relevant Coursework:</h4>
+                    <div class="course-grid">
+                      <span class="course-tag">Data Structures & Algorithms</span>
+                      <span class="course-tag">Software Engineering</span>
+                      <span class="course-tag">Operating Systems</span>
+                      <span class="course-tag">Software Design & Development</span>
+                      <span class="course-tag">Computer Architecture</span>
+                      <span class="course-tag">Introduction to AI</span>
+                      <span class="course-tag">Internet Programming</span>
+                      <span class="course-tag">Databases</span>
+                    </div>
+                  </div>
+                  <div class="certifications">
+                    <h4>Certifications:</h4>
+                    <div class="cert-item">
+                      <span class="icon fa-certificate"></span>
+                      <div>
+                        <strong>AWS Solutions Architecture Simulation</strong>
+                        <p>September 2024 - November 2024 | Cloud computing and infrastructure design</p>
+                      </div>
+                    </div>
+                    <div class="cert-item">
+                      <span class="icon fa-certificate"></span>
+                      <div>
+                        <strong>AT&T Technology Academy</strong>
+                        <p>2024 | Cloud Computing and Agile Methodologies</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="achievements">
+                    <h4>Achievements:</h4>
+                    <div class="achievement-list">
+                      <div class="achievement">
+                        <span class="icon fa-trophy"></span>
+                        <span>College of Science & Engineering Dean's List Recipient</span>
+                      </div>
+                      <div class="achievement">
+                        <span class="icon fa-trophy"></span>
+                        <span>Spring 2025</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -78,103 +154,189 @@
         <!-- Two -->
         <section id="two" class="wrapper alt spotlight style2">
           <div class="inner">
-            <!-- <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a> -->
             <div class="content">
-              <h2 class="major">Professional Experience</h2>
-              <h3 class="major">
-                Web Developer Intern | EEL Energy Solutions & Technologies
-              </h3>
-              <p style="margin-bottom: 1em">
-                ● Created automated testing scripts, reducing manual testing by
-                50% and speeding up releases, while working with designers to
-                enhance brand and user engagement.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Excelled in HTML, CSS, JavaScript, and React to deliver a
-                high-quality, responsive website, improving functionality and
-                user satisfaction.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Increased website uptime by 30% through collaborative
-                troubleshooting with cross-functional teams, significantly
-                enhancing user experience.
-              </p>
+              <h2 class="major">
+                <span class="icon fa-briefcase"></span>
+                Professional Experience
+              </h2>
+              
+              <div class="experience-timeline">
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <div class="company-info">
+                      <h3>University of Minnesota</h3>
+                      <span class="position">Teaching Assistant</span>
+                    </div>
+                    <div class="experience-meta">
+                      <span class="duration">Aug 2025 - Present</span>
+                      <span class="type">Academic</span>
+                    </div>
+                  </div>
+                  <div class="experience-content">
+                    <ul class="achievement-list">
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Providing technical support for 150+ students by streamlining course delivery on Canvas
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Mentored 50+ students by breaking down complex sustainability models into structured methods
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Collaborating with faculty to design scalable feedback systems, applying software architecture principles
+                      </li>
+                    </ul>
+                    <div class="tech-stack">
+                      <span class="tech-tag">Canvas LMS</span>
+                      <span class="tech-tag">Software Architecture</span>
+                      <span class="tech-tag">Mentoring</span>
+                      <span class="tech-tag">Education Technology</span>
+                    </div>
+                  </div>
+                </div>
 
-              <h3
-                class="major"
-                style="
-                  border-top: solid 2px rgba(255, 255, 255, 0.125);
-                  padding-top: 1em;
-                  margin-top: 3em;
-                "
-              >
-                Headstater AI
-              </h3>
-              <p style="margin-bottom: 1em">
-                ● Developed and launched five AI-driven projects, including one
-                aimed at over 1,000 users, showcasing expertise in AI
-                technologies.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Participated in five hackathons, collaborating on innovative
-                solutions.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Received mentorship from experienced software engineers,
-                enhancing technical skills and teamwork abilities.
-              </p>
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <div class="company-info">
+                      <h3>Chewy</h3>
+                      <span class="position">Software Engineering Intern</span>
+                    </div>
+                    <div class="experience-meta">
+                      <span class="duration">June 2025 - Aug 2025</span>
+                      <span class="type">Internship</span>
+                    </div>
+                  </div>
+                  <div class="experience-content">
+                    <ul class="achievement-list">
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Boosted Canadian organic search visibility, driving ~$175K projected annual traffic uplift
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Resolved production issue by removing misleading messaging, increasing policy accuracy by 20%
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Enhanced promotions infrastructure by migrating from legacy ECS to modern EKS architecture
+                      </li>
+                    </ul>
+                    <div class="tech-stack">
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">Next.js</span>
+                      <span class="tech-tag">EKS</span>
+                      <span class="tech-tag">SEO</span>
+                    </div>
+                  </div>
+                </div>
 
-              <h3
-                class="major"
-                style="
-                  border-top: solid 2px rgba(255, 255, 255, 0.125);
-                  padding-top: 1em;
-                  margin-top: 3em;
-                "
-              >
-                AT&T Technology Academy
-              </h3>
-              <p style="margin-bottom: 1em">
-                ● Acquired advanced knowledge in AI, 5G, IoT, and cloud
-                computing, and applied innovative solutions to real-world
-                technology challenges using Agile methodologies.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Developed proficiency in software development and network
-                engineering through collaborative projects addressing real-world
-                technology challenges.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Leveraged agile methodologies to enhance team collaboration,
-                streamline project management, and ensure the timely delivery of
-                high-quality software products.
-              </p>
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <div class="company-info">
+                      <h3>Headstarter AI</h3>
+                      <span class="position">Software Engineering Fellow</span>
+                    </div>
+                    <div class="experience-meta">
+                      <span class="duration">July 2024 - Dec 2024</span>
+                      <span class="type">Fellowship</span>
+                    </div>
+                  </div>
+                  <div class="experience-content">
+                    <ul class="achievement-list">
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Engineered solutions using React, Node.js, and OpenAI, reducing operational costs by 20%
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Delivered software solutions in five hackathons, building scalable features under tight deadlines
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Collaborated with senior engineers on code reviews, optimizing app performance by 30%
+                      </li>
+                    </ul>
+                    <div class="tech-stack">
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">OpenAI</span>
+                      <span class="tech-tag">JavaScript</span>
+                    </div>
+                  </div>
+                </div>
 
-              <h3
-                class="major"
-                style="
-                  border-top: solid 2px rgba(255, 255, 255, 0.125);
-                  padding-top: 1em;
-                  margin-top: 3em;
-                "
-              >
-                Extern| Blockchain and Web3 Security Research.
-              </h3>
-              <p style="margin-bottom: 1em">
-                ● Collaborated closely with senior researchers to evaluate
-                emerging blockchain technologies and assess their security
-                implications, contributing to 56% of the evaluation process.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Executed research and mapped blockchain solutions to enhance
-                digital competitiveness.
-              </p>
-              <p style="margin-bottom: 1em">
-                ● Analyzed Web3 security startups and competitors, focusing on
-                their product offerings and market positions to identify
-                potential disruptors, providing valuable insights for strategic
-                decision-making.
-              </p>
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <div class="company-info">
+                      <h3>Energy Solution & Technologies</h3>
+                      <span class="position">Web Developer Intern</span>
+                    </div>
+                    <div class="experience-meta">
+                      <span class="duration">Feb 2024 - Aug 2024</span>
+                      <span class="type">Internship</span>
+                    </div>
+                  </div>
+                  <div class="experience-content">
+                    <ul class="achievement-list">
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Automated test processes, reducing manual testing hours by 50% and boosting QA efficiency by 30%
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Executed full-stack web development with React, raising organic traffic by 40%
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Collaborated cross-functionally to provide technical troubleshooting, increasing uptime by 30%
+                      </li>
+                    </ul>
+                    <div class="tech-stack">
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">Full-Stack</span>
+                      <span class="tech-tag">SEO</span>
+                      <span class="tech-tag">Testing</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <div class="company-info">
+                      <h3>AWS APAC Solutions Architecture</h3>
+                      <span class="position">Software Simulation</span>
+                    </div>
+                    <div class="experience-meta">
+                      <span class="duration">Sep 2024 - Nov 2024</span>
+                      <span class="type">Simulation</span>
+                    </div>
+                  </div>
+                  <div class="experience-content">
+                    <ul class="achievement-list">
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Developed scalable AWS Elastic Beanstalk software architecture, reducing response times by 40%
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Communicated technical concepts in client-friendly terms, improving client satisfaction
+                      </li>
+                      <li>
+                        <span class="icon fa-check"></span>
+                        Optimized infrastructure for growth, implementing security best practices
+                      </li>
+                    </ul>
+                    <div class="tech-stack">
+                      <span class="tech-tag">AWS</span>
+                      <span class="tech-tag">Elastic Beanstalk</span>
+                      <span class="tech-tag">Cloud Architecture</span>
+                      <span class="tech-tag">Security</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -182,17 +344,187 @@
         <!-- Three -->
         <section id="three" class="wrapper spotlight style3">
           <div class="inner">
-            <!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
             <div class="content">
-              <h2 class="major">Projects</h2>
-              <h3 class="major">Personal Web Portfolio</h3>
-              <p>
-                I am currently developing a personal portfolio website using
-                HTML, CSS, and JavaScript. To ensure continuous visitor access
-                during development, I have hosted the portfolio on Firebase
-                Cloud. Additionally, I have utilized Node.js to deploy code
-                efficiently to Firebase, enhancing the website's interactivity.
+              <h2 class="major">
+                <span class="icon fa-code"></span>
+                Featured Projects
+              </h2>
+              <p class="section-description">
+                A showcase of my recent work spanning web development, AI applications, and innovative solutions.
               </p>
+              
+              <div class="projects-grid">
+                <div class="project-card featured">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-robot"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-external-link-alt"></span>
+                          Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                          <span class="icon fa-github"></span>
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>AI Custom Support Chatbot</h3>
+                    <p>Led a team of 3 developers in creating a highly efficient AI chatbot that improved response accuracy by 30% post-testing and debugging. Designed a modern user interface emphasizing accessibility and usability, with optimized response times.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">Next.js</span>
+                      <span class="tech-tag">React</span>
+                      <span class="tech-tag">API</span>
+                      <span class="tech-tag">AI/ML</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-shopping-cart"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-external-link-alt"></span>
+                          Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                          <span class="icon fa-github"></span>
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Pantry Tracker</h3>
+                    <p>Full-stack pantry management app with real-time database management via Firebase, reducing manual tracking by 60% and improving accuracy. Automated deployment using CI/CD pipelines in Vercel, applying DevOps practices to reduce update times by 70%.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">Next.js</span>
+                      <span class="tech-tag">Material UI</span>
+                      <span class="tech-tag">Firebase</span>
+                      <span class="tech-tag">PostgreSQL</span>
+                      <span class="tech-tag">CI/CD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-laptop-code"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-external-link-alt"></span>
+                          Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                          <span class="icon fa-github"></span>
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Modern, responsive portfolio built with HTML, CSS, and JavaScript. Features smooth animations, interactive elements, and optimized performance. Showcases professional experience and technical skills with dynamic content.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">HTML5</span>
+                      <span class="tech-tag">CSS3</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">Responsive Design</span>
+                      <span class="tech-tag">jQuery</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-cloud"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-external-link-alt"></span>
+                          Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>AWS Cloud Architecture</h3>
+                    <p>Scalable AWS Elastic Beanstalk software architecture that reduced client response times by 40% and supported 3x user traffic growth. Implemented security best practices and optimized infrastructure for scalability.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">AWS</span>
+                      <span class="tech-tag">Elastic Beanstalk</span>
+                      <span class="tech-tag">Cloud Architecture</span>
+                      <span class="tech-tag">Security</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-rocket"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-github"></span>
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Hackathon Solutions</h3>
+                    <p>Five innovative projects developed during hackathons, focusing on AI, automation, and user experience improvements. Collaborative development with cross-functional teams.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">AI/ML</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">Teamwork</span>
+                      <span class="tech-tag">Innovation</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <div class="project-image">
+                    <div class="project-placeholder">
+                      <span class="icon fa-cogs"></span>
+                    </div>
+                    <div class="project-overlay">
+                      <div class="project-links">
+                        <a href="#" class="project-link">
+                          <span class="icon fa-external-link-alt"></span>
+                          Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Automated Testing Framework</h3>
+                    <p>Comprehensive testing suite that reduced manual testing by 50% and improved release speed. Built for EEL Energy Solutions with focus on reliability and efficiency.</p>
+                    <div class="project-tech">
+                      <span class="tech-tag">Testing</span>
+                      <span class="tech-tag">Automation</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">CI/CD</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -200,133 +532,425 @@
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
           <div class="inner">
-            <h2 class="major">Coding Skills</h2>
-            <p>
-              I possess strong coding skills across multiple programming
-              languages and technologies. My proficiency includes C, Java,
-              JavaScript, and Python, with extensive experience in developing
-              web applications using HTML, CSS, and JavaScript. I am adept at
-              utilizing frameworks and tools such as Node.js and Firebase to
-              build and deploy interactive web projects. Additionally, my
-              knowledge of algorithms, data structures, and complex
-              problem-solving techniques is reinforced by my coursework and
-              hands-on projects, ensuring that I am well-equipped to tackle
-              challenging technical problems efficiently.
+            <h2 class="major">
+              <span class="icon fa-cogs"></span>
+              Technical Skills
+            </h2>
+            <p class="section-description">
+              A comprehensive overview of my technical expertise across programming languages, 
+              frameworks, and tools that I use to build innovative solutions.
             </p>
-            <section class="features">
-              <article>
-                <a href="#" class="image"
-                  ><img
-                    src="https://media.licdn.com/dms/image/D5612AQEHGZUx2evvxg/article-cover_image-shrink_600_2000/0/1688275415052?e=2147483647&v=beta&t=MiibYoaOd8k3EYKJGp_zBmSoyV_tklwOItiTYILUXKI"
-                    alt=""
-                /></a>
-                <h3 class="major">C Programming</h3>
-              </article>
-              <article>
-                <a href="#" class="image"
-                  ><img
-                    src="https://www.finoit.com/wp-content/uploads/2022/10/top-java-use-cases.jpg"
-                    alt=""
-                /></a>
-                <h3 class="major">Java Programming</h3>
-              </article>
-              <article>
-                <a href="#" class="image"
-                  ><img
-                    src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/06/javascript-featured.jpg"
-                    alt=""
-                /></a>
-                <h3 class="major">JavaScript Programming</h3>
-              </article>
-              <article>
-                <a href="#" class="image"
-                  ><img
-                    src="https://www.svgrepo.com/show/376344/python.svg"
-                    alt=""
-                /></a>
-                <h3 class="major">Python Programming</h3>
-              </article>
-              <article>
-                <a href="#" class="image"
-                  ><img
-                    src="https://e7.pngegg.com/pngimages/91/429/png-clipart-web-development-html-css3-the-ohana-code-logo-2cpaper-projection-shaded-1660937-html-dropdown-js-blue-text.png"
-                    alt=""
-                /></a>
-                <h3 class="major">HTML & CSS</h3>
-              </article>
-            </section>
-            <h2 class="major">Softwares</h2>
-            <p style="margin-bottom: 0.7em">● MS Office Suite</p>
-            <p style="margin-bottom: 0.7em">● Adobe Acrobat Pro</p>
-            <p style="margin-bottom: 0.7em">● Adobe InDesign</p>
-            <p style="margin-bottom: 0.7em">● Adobe Sign</p>
-            <p style="margin-bottom: 0.7em">● DocPrint</p>
+            
+            <div class="skills-container">
+              <div class="skills-category">
+                <h3>
+                  <span class="icon fa-code"></span>
+                  Programming Languages
+                </h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Python</span>
+                      <span class="skill-level">Expert</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">TypeScript</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Kotlin</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">MATLAB</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Java</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">C/C++</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">JavaScript</span>
+                      <span class="skill-level">Expert</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">OCaml</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Assembly</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="65%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-category">
+                <h3>
+                  <span class="icon fa-laptop-code"></span>
+                  Web Technologies
+                </h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">HTML/CSS</span>
+                      <span class="skill-level">Expert</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">React</span>
+                      <span class="skill-level">Expert</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Next.js</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Express.js</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Django</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Firebase</span>
+                      <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-category">
+                <h3>
+                  <span class="icon fa-brain"></span>
+                  AI & Emerging Technologies
+                </h3>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Machine Learning</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Blockchain</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="65%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">IoT & 5G</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Cloud Computing</span>
+                      <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-category">
+                <h3>
+                  <span class="icon fa-tools"></span>
+                  Tools & Software
+                </h3>
+                <div class="tools-grid">
+                  <div class="tool-item">
+                    <span class="icon fa-git-alt"></span>
+                    <span>Git & GitHub</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-database"></span>
+                    <span>SQL</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-cloud"></span>
+                    <span>REST API</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-server"></span>
+                    <span>EKS</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-rocket"></span>
+                    <span>Vercel</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-fire"></span>
+                    <span>Firebase</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-code"></span>
+                    <span>Visual Studio</span>
+                  </div>
+                  <div class="tool-item">
+                    <span class="icon fa-microscope"></span>
+                    <span>SEM, AFM, Optical Microscopy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </section>
-      <section id="three" class="wrapper spotlight style1">
+      <!-- Leadership & Professional Development Section -->
+      <section id="leadership" class="wrapper spotlight style1">
         <div class="inner">
-          <!-- <a href="#" class="image">Education</a> -->
           <div class="content">
-            <h2 class="major">LEADERSHIP & PROFESSIONAL DEVELOPMENT</h2>
-            <h3 class="major">
-              Management Leadership for Tomorrow | Ascend Program Scholar |
-              Washington, D.C.
-            </h3>
-            <p style="margin-bottom: 0.7em">
-              ● Accepted into 11-month personal and professional development
-              program for first-generation college students
+            <h2 class="major">
+              <span class="icon fa-users"></span>
+              Leadership & Professional Development
+            </h2>
+            <p class="section-description">
+              Active involvement in leadership programs, professional development, and community engagement.
             </p>
-            <p style="margin-bottom: 0.7em">
-              ● Attends virtual and in-person skill building and networking
-              events to grow professional and leadership skills
-            </p>
-            <p style="margin-bottom: 0.7em">
-              ● Engages in monthly one-on-one coaching sessions to refine goals,
-              skills and a professional portfolio.
-            </p>
+            
+            <div class="leadership-grid">
+              <div class="leadership-card">
+                <div class="leadership-icon">
+                  <span class="icon fa-users"></span>
+                </div>
+                <div class="leadership-content">
+                  <h3>Management Leadership of Tomorrow (MLT)</h3>
+                  <p class="leadership-period">Career Preparation Fellow | Ascend Scholar</p>
+                  <p>Selected for a competitive 11-month fellowship in Washington, DC, gaining training in leadership, career development, and software industry preparation. Engaged in monthly coaching and workshops to refine technical proficiency, communication, and project coordination skills while building a national network of peers and mentors.</p>
+                </div>
+              </div>
+
+              <div class="leadership-card">
+                <div class="leadership-icon">
+                  <span class="icon fa-graduation-cap"></span>
+                </div>
+                <div class="leadership-content">
+                  <h3>National Society of Black Engineers (NSBE)</h3>
+                  <p class="leadership-period">Active Member</p>
+                  <p>Active participant in professional development workshops and diversity initiatives in tech. Contributing to building a more inclusive technology industry through mentorship and community engagement.</p>
+                </div>
+              </div>
+
+              <div class="leadership-card">
+                <div class="leadership-icon">
+                  <span class="icon fa-trophy"></span>
+                </div>
+                <div class="leadership-content">
+                  <h3>Academic Excellence</h3>
+                  <p class="leadership-period">College of Science & Engineering Dean's List</p>
+                  <p>Consistently maintained high academic performance with a 3.76 GPA, demonstrating dedication to excellence in Computer Science studies and earning recognition as a Dean's List recipient.</p>
+                </div>
+              </div>
+
+              <div class="leadership-card">
+                <div class="leadership-icon">
+                  <span class="icon fa-chart-line"></span>
+                </div>
+                <div class="leadership-content">
+                  <h3>Professional Impact</h3>
+                  <p class="leadership-period">Measurable Results Across Roles</p>
+                  <p>Delivered significant business impact including $175K projected annual traffic uplift at Chewy, 50% reduction in manual testing, 30% increase in website uptime, and serving 1000+ users with AI applications.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- Footer -->
       <section id="footer">
         <div class="inner">
-          <p></p>
+          <div class="contact-container">
+            <div class="contact-info">
+              <h2>
+                <span class="icon fa-envelope"></span>
+                Let's Connect
+              </h2>
+              <p class="contact-description">
+                I'm always interested in new opportunities, collaborations, and meaningful conversations. 
+                Whether you have a project in mind or just want to say hello, I'd love to hear from you!
+              </p>
+              
+              <div class="contact-details">
+                <div class="contact-item">
+                  <span class="icon solid fa-map-marker-alt"></span>
+                  <div>
+                    <h4>Location</h4>
+                    <p>Minneapolis, MN</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span class="icon solid fa-phone"></span>
+                  <div>
+                    <h4>Phone</h4>
+                    <p><a href="tel:+16123239722">(612) 323-9722</a></p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span class="icon solid fa-envelope"></span>
+                  <div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:omar0384@umn.edu">omar0384@umn.edu</a></p>
+                  </div>
+                </div>
+              </div>
 
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+              <div class="social-links">
+                <h4>Follow Me</h4>
+                <div class="social-icons">
+                  <a href="http://linkedin.com/in/abdulazizabshir" class="social-link" target="_blank">
+                    <span class="icon brands fa-linkedin"></span>
+                    <span>LinkedIn</span>
+                  </a>
+                  <a href="https://github.com/abdulazizabshir" class="social-link" target="_blank">
+                    <span class="icon brands fa-github"></span>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="mailto:omar0384@umn.edu" class="social-link">
+                    <span class="icon solid fa-envelope"></span>
+                    <span>Email</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3>Send me a message</h3>
+              <form method="post" action="#" class="modern-form">
+                <div class="form-group">
+                  <div class="field half">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your full name" required />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your.email@example.com" required />
+                  </div>
               </div>
               <div class="field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" id="subject" placeholder="What's this about?" />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                  <textarea name="message" id="message" rows="6" placeholder="Tell me about your project or just say hello!" required></textarea>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="button primary large">
+                    <span class="icon fa-paper-plane"></span>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <div class="footer-stats">
+              <div class="stat">
+                <span class="stat-number">$175K</span>
+                <span class="stat-label">Traffic Uplift</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">150+</span>
+                <span class="stat-label">Students Mentored</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">3.76</span>
+                <span class="stat-label">GPA</span>
               </div>
             </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
-          </form>
-          <ul class="contact">
-            <li class="icon solid fa-home">Minneosota, MN</li>
-            <li class="icon solid fa-phone">(612) 323-9722</li>
-            <li class="icon solid fa-envelope">
-              <a href="mailto:Mohammedabdiaziz10@gmail.com">Mohammedabdiaziz10@gmail.com </a>
-            </li>
-            <li class="icon brands fa-linkedin">
-              <a href="http://linkedin.com/in/abdulazizabshir"
-                >Abdulaziz Abshir</a
-              >
-            </li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Made with ❤️ by ABDULAZIZ ABSHIR</li>
-          </ul>
+            <div class="copyright">
+              <p>&copy; 2024 Abdulaziz Abshir. Made with <span class="heart">❤️</span> and lots of coffee.</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -338,5 +962,146 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <!-- Custom JavaScript for animations and interactions -->
+    <script>
+      $(document).ready(function() {
+        // Animate skill bars when they come into view
+        function animateSkillBars() {
+          $('.skill-progress').each(function() {
+            const $this = $(this);
+            const targetWidth = $this.data('width');
+            
+            if (isElementInViewport($this[0])) {
+              $this.css('--target-width', targetWidth);
+              $this.addClass('animate');
+              $this.css('width', targetWidth);
+            }
+          });
+        }
+        
+        // Check if element is in viewport
+        function isElementInViewport(el) {
+          const rect = el.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+        
+        // Animate elements on scroll
+        $(window).on('scroll', function() {
+          animateSkillBars();
+          
+          // Add fade-in animation to cards
+          $('.project-card, .achievement-card, .experience-item').each(function() {
+            if (isElementInViewport(this)) {
+              $(this).addClass('fade-in');
+            }
+          });
+        });
+        
+        // Smooth scrolling for navigation links
+        $('a[href^="#"]').on('click', function(e) {
+          e.preventDefault();
+          const target = $(this.getAttribute('href'));
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top - 80
+            }, 800);
+          }
+        });
+        
+        // Add typing effect to hero title
+        function typeWriter(element, text, speed = 100) {
+          let i = 0;
+          element.innerHTML = '';
+          
+          function type() {
+            if (i < text.length) {
+              element.innerHTML += text.charAt(i);
+              i++;
+              setTimeout(type, speed);
+            }
+          }
+          type();
+        }
+        
+        // Initialize typing effect
+        const heroTitle = document.querySelector('.hero-text h1');
+        if (heroTitle) {
+          const originalText = heroTitle.textContent;
+          setTimeout(() => {
+            typeWriter(heroTitle, originalText, 80);
+          }, 1000);
+        }
+        
+        // Add hover effects to project cards
+        $('.project-card').hover(
+          function() {
+            $(this).find('.project-overlay').fadeIn(300);
+          },
+          function() {
+            $(this).find('.project-overlay').fadeOut(300);
+          }
+        );
+        
+        // Add click animation to buttons
+        $('.button').on('click', function() {
+          $(this).addClass('clicked');
+          setTimeout(() => {
+            $(this).removeClass('clicked');
+          }, 200);
+        });
+        
+        // Initialize animations on page load
+        setTimeout(() => {
+          animateSkillBars();
+        }, 1000);
+        
+        // Add parallax effect to hero section
+        $(window).on('scroll', function() {
+          const scrolled = $(window).scrollTop();
+          const parallax = $('.hero-content');
+          const speed = scrolled * 0.5;
+          parallax.css('transform', 'translateY(' + speed + 'px)');
+        });
+        
+        // Add counter animation for stats
+        function animateCounters() {
+          $('.stat-number').each(function() {
+            const $this = $(this);
+            const countTo = $this.attr('data-count');
+            
+            if (isElementInViewport(this) && !$this.hasClass('counted')) {
+              $this.addClass('counted');
+              $({ countNum: $this.text() }).animate({
+                countNum: countTo
+              }, {
+                duration: 2000,
+                easing: 'swing',
+                step: function() {
+                  $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                  $this.text(this.countNum);
+                }
+              });
+            }
+          });
+        }
+        
+        // Initialize counter animation
+        $(window).on('scroll', animateCounters);
+        
+        // Add loading animation
+        $(window).on('load', function() {
+          $('.is-preload').removeClass('is-preload');
+        });
+      });
+    </script>
   </body>
 </html>
+
